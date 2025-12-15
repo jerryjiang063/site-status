@@ -28,7 +28,10 @@ const Footer = () => {
           &nbsp;Version&nbsp;{Package.version}
         </p>
         <p>
-          Copyright&nbsp;&copy;&nbsp;2025&nbsp;Jerry Jiang (SPYCCB)
+          Made by Jerry Jiang
+        </p>
+        <p>
+          This project is based on https://github.com/imsyy/site-status
         </p>
       </div>
     </footer>
