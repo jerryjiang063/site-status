@@ -16,7 +16,7 @@ export default async (req) => {
     }
   
     const params = new URLSearchParams(body);
-    if (!params.get("api_key")) params.set("api_key", apiKey);
+    params.set("api_key", apiKey); // 强制覆盖，不管前端传啥
   
     const r = await fetch("https://api.uptimerobot.com/v2/getMonitors", {
       method: "POST",
